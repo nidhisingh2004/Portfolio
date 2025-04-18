@@ -2,7 +2,7 @@
 # 🎓  Portfolio Website
 
 Welcome to my personal portfolio website!  
-I'm a passionate student currently pursuing my degree in Computer Science/Engineering (you can edit this), and this website showcases my journey, projects, skills, and achievements.
+I'm a passionate student currently pursuing my degree in Computer Science/Engineering , and this website showcases my journey, projects, skills, and achievements.
 
 ---
 
