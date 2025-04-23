@@ -5,37 +5,41 @@ import { ExternalLink, Github, Layout } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'A full-stack e-commerce platform with user authentication, product management, cart functionality, and payment integration.',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1523289333742-be1143f6b766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      demoLink: '#',
-      codeLink: '#',
-    },
-    {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, user roles, and progress tracking features.',
-      technologies: ['React', 'Firebase', 'Tailwind CSS', 'Context API'],
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGFzayUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
-      demoLink: '#',
-      codeLink: '#',
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'An interactive weather dashboard that provides real-time weather data, forecasts, and location-based weather information.',
-      technologies: ['JavaScript', 'OpenWeather API', 'Chart.js', 'Geolocation API'],
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      demoLink: '#',
-      codeLink: '#',
-    },
-    {
-      title: 'Blog Platform',
-      description: 'A full-featured blog platform with rich text editing, comment system, user profiles, and content categorization.',
-      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'NextAuth.js'],
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      demoLink: '#',
-      codeLink: '#',
-    },
+        title: 'Connect With Your Fam',
+        description: 'Developed a Full-Stack Social Media Platform: Built a highly interactive and responsive social media application using the MERN stack (MongoDB, Express.js, React.js, Node.js), optimized for both mobile and desktop devices.',
+        technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMiTcH_AgwKR0qh-kaFgjjH3LcwaGHRdMn6w&s', // Use an appropriate image
+        demoLink: 'https://your-live-demo-link.com',
+        codeLink: 'https://github.com/nidhisingh2004/Connect-your-fam-s', // Update this with your GitHub repo URL
+      },
+      ,
+      {
+          title: 'Social-App',
+          description: 'Social Media Web Application clone along the lines of Signal, Facebook, and Twitter. Features include posting, commenting, sharing, user authentication, notifications, and private messaging using React, Node.js, and MongoDB.',
+          technologies: ['React.js', 'Node.js', 'MongoDB', 'JWT', 'BCrypt'],
+          image: 'https://blog.privadovpn.com/wp-content/uploads/2022/06/Shutterstock_1498591895.jpg',
+          demoLink: 'https://your-live-demo-link.com',
+          codeLink: 'https://github.com/nidhisingh2004/Social-App', 
+        },
+        
+        {
+            title: 'DailyPlanner',
+            description: 'A task management application built with React and Vite. The app allows users to plan, organize, and track daily tasks with a minimal and responsive user interface.',
+            technologies: ['React.js', 'Vite', 'ESLint'],
+            image: 'https://slidesmania.com/wp-content/uploads/2023/06/Daily-planner-plus-month-calendars-for-google-slides-and-powerpoint.jpg',
+            demoLink: 'https://your-live-demo-link.com',
+            codeLink: 'https://github.com/nidhisingh2004/DailyPlanner', 
+          },
+          ,
+          {
+              title: 'Tourist-Manager',
+              description: 'A full-featured tourist management system designed for booking and managing travel tickets, accommodations, and related services. The system allows users to search for hotels, flights, trains, and make bookings with options for payment and receipt generation.',
+              technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+              image: 'https://media.istockphoto.com/id/1289259699/vector/touristic-service-with-travel-company-manager.jpg?s=612x612&w=0&k=20&c=0psd7LkUVMRZmXhwxOdlD_NKC8moy7PsS1qEvMw0-v0=',
+              demoLink: 'https://your-live-demo-link.com',
+              codeLink: 'https://github.com/nidhisingh2004/Tourist-Manager',
+            },
+            ,
   ];
 
   return (

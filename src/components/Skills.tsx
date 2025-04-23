@@ -22,31 +22,31 @@ import {
 
 const Skills: React.FC = () => {
   const frontendSkills = [
-    { name: 'HTML/CSS', level: 95, icon: <SiHtml5 className="text-orange-500" /> },
-    { name: 'JavaScript', level: 90, icon: <SiJavascript className="text-yellow-400" /> },
-    { name: 'React.js', level: 85, icon: <SiReact className="text-blue-500" /> },
-    { name: 'TypeScript', level: 80, icon: <SiTypescript className="text-blue-700" /> },
-    { name: 'Tailwind CSS', level: 90, icon: <SiTailwindcss className="text-teal-400" /> },
+    { name: 'HTML/CSS', level: 95, icon: <SiHtml5 size={30} className="text-orange-500" /> },
+    { name: 'JavaScript', level: 90, icon: <SiJavascript size={30} className="text-yellow-400" /> },
+    { name: 'React.js', level: 85, icon: <SiReact size={30} className="text-blue-500" /> },
+    { name: 'TypeScript', level: 80, icon: <SiTypescript size={30} className="text-blue-700" /> },
+    { name: 'Tailwind CSS', level: 90, icon: <SiTailwindcss size={30} className="text-teal-400" /> },
   ];
 
   const backendSkills = [
-    { name: 'Node.js', level: 85, icon: <SiNodedotjs className="text-green-600" /> },
-    { name: 'Express.js', level: 80, icon: <SiExpress className="text-gray-800" /> },
-    { name: 'MongoDB', level: 75, icon: <SiMongodb className="text-green-500" /> },
-    { name: 'SQL', level: 80, icon: <SiMysql className="text-blue-500" /> },
-    { name: 'RESTful APIs', level: 90, icon: <SiPostgresql className="text-blue-700" /> },
+    { name: 'Node.js', level: 85, icon: <SiNodedotjs size={30} className="text-green-600" /> },
+    { name: 'Express.js', level: 80, icon: <SiExpress size={30} className="text-gray-800" /> },
+    { name: 'MongoDB', level: 75, icon: <SiMongodb size={30} className="text-green-500" /> },
+    { name: 'SQL', level: 80, icon: <SiMysql size={30} className="text-blue-500" /> },
+    { name: 'RESTful APIs', level: 90, icon: <SiPostgresql size={30} className="text-blue-700" /> },
   ];
 
   const otherSkills = [
-    { name: 'Git & GitHub', icon: <SiGithub className="text-black" /> },
-    { name: 'Responsive Design', icon: <SiFigma className="text-pink-500" /> },
-    { name: 'UI/UX Principles', icon: <SiFigma className="text-purple-500" /> },
-    { name: 'Agile Methodology', icon: <Check size={18} className="text-portfolio-purple" /> },
-    { name: 'Problem Solving', icon: <Check size={18} className="text-portfolio-purple" /> },
-    { name: 'Docker', icon: <SiDocker className="text-blue-500" /> },
-    { name: 'Testing (Jest)', icon: <SiJest className="text-pink-600" /> },
-    { name: 'CI/CD Pipelines', icon: <Check size={18} className="text-portfolio-purple" /> },
-    { name: 'Firebase', icon: <SiFirebase className="text-yellow-500" /> },
+    { name: 'Git & GitHub', icon: <SiGithub size={30} className="text-black" /> },
+    { name: 'Responsive Design', icon: <SiFigma size={30} className="text-pink-500" /> },
+    { name: 'UI/UX Principles', icon: <SiFigma size={30} className="text-purple-500" /> },
+    { name: 'Agile Methodology', icon: <Check size={24} className="text-portfolio-purple" /> },
+    { name: 'Problem Solving', icon: <Check size={24} className="text-portfolio-purple" /> },
+    { name: 'Docker', icon: <SiDocker size={30} className="text-blue-500" /> },
+    { name: 'Testing (Jest)', icon: <SiJest size={30} className="text-pink-600" /> },
+    { name: 'CI/CD Pipelines', icon: <Check size={24} className="text-portfolio-purple" /> },
+    { name: 'Firebase', icon: <SiFirebase size={30} className="text-yellow-500" /> },
   ];
 
   return (
