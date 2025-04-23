@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
                 <div className="absolute -inset-1 bg-gradient-to-r from-portfolio-purple to-portfolio-light-purple rounded-xl blur opacity-20"></div>
                 <Avatar className="w-48 h-48 mx-auto border-4 border-white shadow-md">
                   <AvatarImage 
-                    src="/placeholder.svg" 
+                    src="/portfolio photo.jpg" 
                     alt="Nidhi Kumari" 
                     className="object-cover"
                   />
@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
                 <div className="relative bg-white p-4 rounded-lg border border-gray-100">
                   <Avatar className="w-36 h-36 mx-auto">
                     <AvatarImage 
-                      src="/placeholder.svg" 
+                      src="/logo.jpg" 
                       alt="Lovely Professional University" 
                       className="object-contain p-2"
                     />
