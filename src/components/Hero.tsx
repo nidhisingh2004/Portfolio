@@ -43,7 +43,7 @@ const Hero = () => {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <div className="w-full h-full rounded-full border-4 border-emerald-400 glass-effect overflow-hidden hover:scale-110 transition-transform duration-500 shadow-2xl hover:shadow-emerald-400/50">
                   <img 
-                    src="public\portfoliophoto1.jpg"
+                    src="/portfoliophoto1.jpg"
                     alt="Nidhi Kumari - Full-Stack Developer & UI/UX Designer"
                     className="w-full h-full object-cover"
                   />
