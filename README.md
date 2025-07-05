@@ -37,7 +37,7 @@ Showcase live demos of my MERN stack and GenAI projects
 
 Reflect my growth as a problem solver and product-minded developer ready for 0→1 startup journeys
 
-📷 Preview
+
 
 🤝 Let’s Connect
 If you’re hiring, collaborating, or mentoring — I’d love to hear from you!
